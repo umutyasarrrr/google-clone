@@ -7,7 +7,7 @@ html, body {
 body {
 	display:grid;
 	grid-template-columns: 100%;
-	grid-template-row: 50px auto 50px;
+	grid-template-rows: 50px auto 50px;
 	grid-gap: 1px 1px;
 }
 ul, li {
@@ -32,4 +32,27 @@ footer {
 }
 main  {
 	place-self: center;
+	transform: translate(0px, -50px);
 }
+#logo {
+}
+.searchbar {
+}
+
+
+#search {
+	width: 100% !important;
+	height: 20px;
+}
+
+#voice {
+	position: relative;
+	float: right;
+	top: -23px;
+	height: 20px;
+
+}
+.buttons {
+	display: inline-block;
+}
+
